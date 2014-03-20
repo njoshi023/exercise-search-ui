@@ -1,0 +1,16 @@
+<div id="home">
+	<div id="header">
+		<h1>Exercises Search</h1>
+		<input type='text' ng-model="query" ng-change="getResults()" placeholder='Please Enter Your Search'></input>
+	</div>	
+	<ul>		
+		<li ng-repeat="exercise in exercises">
+			<div id='exercise-body'>
+				<div id='name'>{{ exercise.name }}</div>
+				<img src="images/{{ exercise.image_link }}" err-src="images/75.jpg">
+				<div>{{ exercise.description }}</div>
+			</div>
+		</li>
+		
+	</ul>
+</div>

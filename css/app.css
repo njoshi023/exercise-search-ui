@@ -1,0 +1,45 @@
+h1 {
+	color: green;
+	text-align: center;
+}
+
+h2 a {
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 500px;
+}
+
+#header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+li {
+	margin: 0 0 10px 0;
+	padding-left: 10px;
+	overflow: hidden;
+	border: 2px solid rgb(238, 238, 238);
+	border-radius: 5px;
+}
+
+li #exercise-body {	
+	clear:both;	
+}
+
+li #exercise-body #name {	
+	color: #004b91;
+	font-size: 1.5em;
+}
+
+li img {
+	float: left;
+	margin: 0 15px 15px 0
+}
